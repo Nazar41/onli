@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    color:black;
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background:url("/lli.png") center center no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 48px;
+    line-height:24px ;
+    color:#ffffff;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 60px;
+    text-align: center;
+}
+h2,h3{
+    font-size: 20px;
+    color: #555555;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 14px;
+}
+p{
+    text-align: center;
+}
+  
+.header-inner{
+    width:100%;
+}
+.header-top{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header-logo > a{
+    font-size: 24px;
+    line-height: 36px;
+    color:#ffffff;
+    font-weight:700;
+}
+.conteiner{
+    width:100%;
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header-menu-inner{
+    display: flex;
+}
+.header-menu_item{
+    margin: 15px;
+    transition: font-size 0.5s;
+}
+.header-menu_item:hover{
+    font-size:16px;
+    font-weight: 700;
+}
+.header-intro > p {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 30px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+} 
+li{
+    list-style-type: none;
+}
+.lopop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:92vh;
+}
+.btn{
+    display: block;
+    width: 180px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    background:transparent;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.btn:hover{
+    background:#fff;
+    color:red;
+    font-weight: 700;
+}
+.main-inner{
+    width: 100%;
+    padding: 100px;
+}
+
+i{
+    font-style: 48px;
+    color: red;
+}
+
+
+

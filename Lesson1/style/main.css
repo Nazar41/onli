@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lol{
+    text-align: center;
+}
+
+#square{
+    width: 250px;
+    height: 340px;
+    background: rgb(130, 151, 223);
+    border-radius: 5%;
+    text-align: center;
+   
+}
+
+.a{
+    display: block;
+    border-radius: 50px;
+}
+.button{
+    background: brown;
+    border-radius: 12%;
+}
